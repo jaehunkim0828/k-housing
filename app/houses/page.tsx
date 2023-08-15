@@ -53,7 +53,6 @@ export default function BuyPage() {
     id: "google-map-script",
     googleMapsApiKey: mapKey,
   });
-  console.log(mapKey);
   const [currentD, setCurrentD] = useState("");
   const [house, setHouses] = useState(
     buyState === "sale" ? data["sale"] : data["rent"]
