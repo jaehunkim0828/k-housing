@@ -1,0 +1,151 @@
+@import "@/styles/_layout.scss";
+
+.premiumContainer {
+  @include main-container();
+  .wrapper {
+    @include wrapper();
+    @include flex-row(space-between, center);
+    height: 100%;
+  }
+
+  .premium {
+    width: 100%;
+    position: relative;
+    background-color: #eeeeee;
+
+    .preminumImg {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+
+    .context {
+      position: absolute;
+      top: 0;
+      padding: 30px;
+      @include flex-column(space-between, center);
+      width: 100%;
+      height: 100%;
+
+      .top {
+        @include flex-column(center, flex-start);
+        font-size: 20px;
+        width: 100%;
+
+        strong {
+          color: #a8b8ff;
+        }
+        span {
+          color: white;
+        }
+      }
+      .bottom {
+        @include flex-row(space-between, center);
+        width: 100%;
+        color: white;
+        font-size: 25px;
+        font-family: Georgia, serif;
+        text-shadow: 2px 2px 2px rgb(81, 81, 81);
+      }
+    }
+  }
+  .searchContainer {
+    height: 300px;
+    background-color: #eeeeee;
+    width: 100%;
+    @include flex-row(center, center);
+
+    .searchContext {
+      font-size: 25px;
+      @include flex-column(center, flex-start);
+      gap: 10px;
+      font-family: Georgia, serif;
+    }
+
+    .searchBar {
+      @include flex-column(center, center);
+      gap: 20px;
+
+      .text {
+        font-size: 20px;
+      }
+
+      .inputContainer {
+        @include flex-column(center, center);
+        position: relative;
+        width: 90%;
+        gap: 20px;
+
+        span {
+          color: gray;
+        }
+
+        input {
+          width: 100%;
+          padding: 10px 40px 10px 20px;
+          border-radius: 5px;
+          border: 1px black solid;
+          height: 40px;
+          outline: none;
+        }
+
+        .searchBtn {
+          position: absolute;
+          top: 10px;
+          right: 20px;
+        }
+      }
+    }
+  }
+  .goods {
+    width: 100%;
+    @include flex-row(center, center);
+    padding: 50px 0;
+    border-bottom: 1px solid #d9d9d9;
+
+    .list {
+      flex: 1;
+
+      &:nth-child(odd) {
+        .cards {
+          background-color: #eeeeee;
+        }
+      }
+
+      &:nth-child(even) {
+        .cards {
+          background-color: white;
+        }
+      }
+
+      &:first-child {
+        .title {
+          border-left: 1px #bcbcbc solid;
+        }
+      }
+      .title {
+        font-size: 16px;
+        font-weight: 500;
+        border-bottom: 1px black solid;
+        width: 100%;
+        padding: 10px 20px;
+        text-align: center;
+        vertical-align: middle;
+        border-right: 1px #bcbcbc solid;
+        box-sizing: border-box;
+        margin-left: -1px;
+      }
+      .cards {
+        width: 100%;
+        @include flex-column(center, center);
+        gap: 80px;
+        padding: 50px 0;
+
+        .card {
+          @include flex-row(center, center);
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1441 @@
+{
+  "rent": [
+    {
+      "name": "City Haven Apartments",
+      "local": "Seoul",
+      "address": "Gangnam-gu 123 City Haven Apartments, 10th Floor",
+      "price": 800000,
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "20 sq meters",
+      "home_detail": "City Haven Apartments is a modern and cozy living space located in the heart of Gangnam. With easy access to public transportation, shopping centers, and entertainment venues, it offers convenience and comfort. The apartment features a balcony with a view, perfect for enjoying a morning coffee or evening breeze.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Microwave",
+        "Balcony",
+        "Refrigerator"
+      ],
+      "community_amenity": ["Fitness Center", "Lounge"],
+      "walk": 85,
+      "bicycle": 90,
+      "lat": 37.4321,
+      "lng": 127.2201,
+      "images": ["r1.jpeg", "1.jpeg", "2.jpeg"]
+    },
+    {
+      "name": "Seoul Garden Residences",
+      "local": "Seoul",
+      "address": "Mapo-gu 456 Seoul Garden Residences, 5A",
+      "price": 550000,
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "15 sq meters",
+      "home_detail": "Welcome to Seoul Garden Residences, where modern living meets tranquil green spaces. This well-designed apartment offers a spacious bedroom, a functional kitchen, and a cozy living area. Enjoy the convenience of nearby cafes, parks, and public transportation options.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": ["Air Conditioning", "Refrigerator"],
+      "community_amenity": ["Garden", "Playground"],
+      "walk": 70,
+      "bicycle": 75,
+      "lat": 37.2345,
+      "lng": 127.0567,
+      "images": ["r2.jpeg", "3.jpeg", "4.jpeg"]
+    },
+    {
+      "name": "Urban Loft Apartments",
+      "local": "Seoul",
+      "address": "Itaewon-ro 789 Urban Loft Apartments, 15B",
+      "price": 720000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "25 sq meters",
+      "home_detail": "Experience urban living at its best in the trendy neighborhood of Itaewon. Urban Loft Apartments offer stylish and modern interiors with high ceilings and large windows, providing plenty of natural light. The building features a rooftop terrace with stunning city views.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Rooftop Terrace", "Fitness Center"],
+      "walk": 88,
+      "bicycle": 92,
+      "lat": 37.6789,
+      "lng": 127.3012,
+      "images": ["r3.jpeg", "5.jpeg", "6.jpeg"]
+    },
+    {
+      "name": "Han River View Residency",
+      "local": "Seoul",
+      "address": "Yeouido-dong 321 Han River View Residency, 9D",
+      "price": 950000,
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "30 sq meters",
+      "home_detail": "Indulge in breathtaking views of the Han River from this luxurious apartment. With spacious rooms, modern furnishings, and top-notch amenities, Han River View Residency offers a truly upscale living experience. Enjoy access to a private fitness center and 24/7 concierge service.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Private Fitness Center", "Concierge"],
+      "walk": 70,
+      "bicycle": 75,
+      "lat": 37.789,
+      "lng": 127.15,
+      "images": ["r4.jpeg", "7.jpeg", "8.jpeg"]
+    },
+    {
+      "name": "Skyline Heights Condos",
+      "local": "Seoul",
+      "address": "Gangbuk-gu 567 Skyline Heights Condos, 22F",
+      "price": 850000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "28 sq meters",
+      "home_detail": "Elevate your living experience with Skyline Heights Condos, offering stunning panoramic views of the city. This spacious apartment features elegant interior designs, modern appliances, and ample storage space. The building boasts a sky lounge for residents to unwind and socialize.",
+      "animal_welcome": "CAT",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Sky Lounge", "Swimming Pool"],
+      "walk": 82,
+      "bicycle": 88,
+      "lat": 37.4567,
+      "lng": 127.0821,
+      "images": ["r5.jpeg", "9.jpeg", "10.jpeg"]
+    },
+    {
+      "name": "Golden Plaza Residences",
+      "local": "Seoul",
+      "address": "Jung-gu 789 Golden Plaza Residences, 12C",
+      "price": 720000,
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "18 sq meters",
+      "home_detail": "Discover comfort and convenience at Golden Plaza Residences, centrally located in Jung-gu. This well-appointed apartment offers a cozy living space, a fully equipped kitchenette, and a modern bathroom. Enjoy easy access to shopping districts and cultural attractions.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": ["Air Conditioning", "Microwave", "Refrigerator"],
+      "community_amenity": ["Laundry Room", "Courtyard"],
+      "walk": 75,
+      "bicycle": 80,
+      "lat": 37.9876,
+      "lng": 127.2678,
+      "images": ["r6.jpeg", "11.jpeg", "12.jpeg"]
+    },
+    {
+      "name": "Pristine Parkside Homes",
+      "local": "Seoul",
+      "address": "Seongdong-gu 234 Pristine Parkside Homes, 7D",
+      "price": 620000,
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "22 sq meters",
+      "home_detail": "Immerse yourself in nature at Pristine Parkside Homes, surrounded by lush greenery and tranquility. This charming apartment offers a cozy atmosphere with a spacious bedroom and a lovely balcony overlooking a park. Enjoy leisurely strolls and picnics in the nearby park.",
+      "animal_welcome": "CAT",
+      "in_unity_amenity": ["Air Conditioning", "Balcony", "Refrigerator"],
+      "community_amenity": ["Park Access", "BBQ Area"],
+      "walk": 88,
+      "bicycle": 92,
+      "lat": 37.321,
+      "lng": 127.4156,
+      "images": ["r7.jpeg", "13.jpeg", "14.jpeg"]
+    },
+    {
+      "name": "Cosmopolitan Living Suites",
+      "local": "Seoul",
+      "address": "Yongsan-gu 101 Cosmopolitan Living Suites, 18A",
+      "price": 890000,
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "32 sq meters",
+      "home_detail": "Experience the epitome of cosmopolitan living at these luxurious suites in Yongsan-gu. With spacious rooms, high-end finishes, and panoramic city views, this apartment offers a blend of comfort and elegance. Enjoy easy access to upscale shopping and dining.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Concierge Service", "Rooftop Garden"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 37.2341,
+      "lng": 127.1809,
+      "images": ["r8.jpeg", "15.jpeg", "16.jpeg"]
+    },
+    {
+      "name": "Riverside Retreat Residences",
+      "local": "Seoul",
+      "address": "Gangseo-gu 456 Riverside Retreat Residences, 5B",
+      "price": 720000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "26 sq meters",
+      "home_detail": "Escape the city hustle and unwind at Riverside Retreat Residences, nestled along the tranquil banks of the river. This well-designed apartment features a modern aesthetic, spacious living areas, and serene river views. Enjoy leisurely walks and picnics along the riverfront.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Microwave",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Riverfront Park", "Fitness Center"],
+      "walk": 75,
+      "bicycle": 80,
+      "lat": 37.5678,
+      "lng": 127.3489,
+      "images": ["r9.jpeg", "17.jpeg", "18.jpeg"]
+    },
+    {
+      "name": "Modern Haven Apartments",
+      "local": "Seoul",
+      "address": "Songpa-gu 789 Modern Haven Apartments, 9C",
+      "price": 580000,
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "20 sq meters",
+      "home_detail": "Discover your modern haven in the heart of Songpa-gu. This thoughtfully designed apartment offers a cozy bedroom, an efficient kitchen, and a comfortable living area. With proximity to cultural attractions and dining options, you'll experience the best of city living.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": ["Air Conditioning", "Refrigerator"],
+      "community_amenity": ["Lounge", "Bike Storage"],
+      "walk": 68,
+      "bicycle": 72,
+      "lat": 37.5678,
+      "lng": 127.3489,
+      "images": ["r10.jpeg", "19.jpeg", "20.jpeg"]
+    },
+    {
+      "name": "Oceanfront Oasis Apartments",
+      "local": "Busan",
+      "address": "Haeundae-gu 123 Oceanfront Oasis Apartments, 8D",
+      "price": 780000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "28 sq meters",
+      "home_detail": "Escape to your oceanfront oasis in Haeundae-gu, Busan. This stunning apartment offers breathtaking views of the sea, modern furnishings, and a spacious balcony. Embrace the coastal lifestyle with beach access, water sports, and seafood dining.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Beach Access", "Swimming Pool"],
+      "walk": 90,
+      "bicycle": 95,
+      "lat": 35.1791,
+      "lng": 129.0756,
+      "images": ["r11.jpeg", "21.jpeg", "1.jpeg"]
+    },
+    {
+      "name": "Harborview Heights Condos",
+      "local": "Busan",
+      "address": "Dongnae-gu 456 Harborview Heights Condos, 12B",
+      "price": 620000,
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "22 sq meters",
+      "home_detail": "Indulge in panoramic harbor views at Harborview Heights Condos. This elegant apartment features a comfortable living space, modern amenities, and easy access to the bustling Dongnae district. Enjoy harborfront walks and nearby cultural attractions.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": ["Air Conditioning", "Microwave", "Refrigerator"],
+      "community_amenity": ["Harborfront Walkway", "Fitness Center"],
+      "walk": 75,
+      "bicycle": 80,
+      "lat": 35.1567,
+      "lng": 129.0589,
+      "images": ["r12.jpeg", "2.jpeg", "3.jpeg"]
+    },
+    {
+      "name": "Mountain Retreat Residences",
+      "local": "Busan",
+      "address": "Geumjeong-gu 789 Mountain Retreat Residences, 5A",
+      "price": 680000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "25 sq meters",
+      "home_detail": "Experience tranquility at Mountain Retreat Residences, nestled in the scenic Geumjeong-gu. This cozy apartment offers stunning mountain views, modern comforts, and access to nearby hiking trails. Enjoy a peaceful and nature-inspired lifestyle.",
+      "animal_welcome": "CAT",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Nature Trails", "Garden"],
+      "walk": 70,
+      "bicycle": 75,
+      "lat": 35.2078,
+      "lng": 129.055,
+      "images": ["r13.jpeg", "4.jpeg", "5.jpeg"]
+    },
+    {
+      "name": "Urban Seaside Living Suites",
+      "local": "Busan",
+      "address": "Suyeong-gu 101 Urban Seaside Living Suites, 18C",
+      "price": 890000,
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "32 sq meters",
+      "home_detail": "Embrace urban seaside living at its finest in Suyeong-gu, Busan. These luxurious suites offer spacious interiors, high-end finishes, and stunning sea views. Enjoy direct beach access, water activities, and a vibrant coastal atmosphere.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Beachfront Access", "Rooftop Terrace"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 35.2321,
+      "lng": 129.1012,
+      "images": ["r14.jpeg", "6.jpeg", "7.jpeg"]
+    },
+    {
+      "name": "Hillside Haven Apartments",
+      "local": "Busan",
+      "address": "Nam-gu 567 Hillside Haven Apartments, 22F",
+      "price": 750000,
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "28 sq meters",
+      "home_detail": "Find your hillside haven in the charming Nam-gu, Busan. This well-designed apartment offers a serene living environment with picturesque hill views. Explore nearby cafes, local markets, and cultural landmarks.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Microwave",
+        "Balcony",
+        "Refrigerator"
+      ],
+      "community_amenity": ["Cafes", "Gym"],
+      "walk": 85,
+      "bicycle": 90,
+      "lat": 35.189,
+      "lng": 129.1334,
+      "images": ["r15.jpeg", "8.jpeg", "9.jpeg"]
+    },
+    {
+      "name": "Seaside Paradise Villas",
+      "local": "Jeju",
+      "address": "Seogwipo-si 123 Seaside Paradise Villas, 8D",
+      "price": 720000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "26 sq meters",
+      "home_detail": "Experience the magic of Jeju Island at Seaside Paradise Villas. This charming villa offers stunning ocean views, comfortable living spaces, and a private patio. Enjoy leisurely walks along the shoreline and indulge in fresh seafood delicacies.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Patio",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Beach Access", "Garden"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 33.4992,
+      "lng": 126.5311,
+      "images": ["r16.jpeg", "10.jpeg", "11.jpeg"]
+    },
+    {
+      "name": "Jeju Retreat Cottages",
+      "local": "Jeju",
+      "address": "Jeju City 456 Jeju Retreat Cottages, 12B",
+      "price": 580000,
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "20 sq meters",
+      "home_detail": "Find solace and relaxation at Jeju Retreat Cottages, nestled in the heart of Jeju City. These cozy cottages offer a serene environment, modern conveniences, and access to nearby attractions. Immerse yourself in the island's natural beauty.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": ["Air Conditioning", "Microwave", "Refrigerator"],
+      "community_amenity": ["Nature Trails", "Picnic Area"],
+      "walk": 70,
+      "bicycle": 75,
+      "lat": 33.4076,
+      "lng": 126.6983,
+      "images": ["r17.jpeg", "12.jpeg", "13.jpeg"]
+    },
+    {
+      "name": "Hilltop Hideaway Homes",
+      "local": "Jeju",
+      "address": "Seongsan-eup 789 Hilltop Hideaway Homes, 5A",
+      "price": 660000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "24 sq meters",
+      "home_detail": "Escape to the picturesque hilltop hideaway in Seongsan-eup, Jeju. These homes offer stunning panoramic views, comfortable interiors, and easy access to the famous Seongsan Ilchulbong Peak. Immerse yourself in Jeju's natural wonders.",
+      "animal_welcome": "CAT",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Scenic Views", "BBQ Area"],
+      "walk": 75,
+      "bicycle": 80,
+      "lat": 33.3612,
+      "lng": 126.53,
+      "images": ["r18.jpeg", "14.jpeg", "15.jpeg"]
+    },
+    {
+      "name": "Coastal Haven Residences",
+      "local": "Jeju",
+      "address": "Gujwa-eup 101 Coastal Haven Residences, 18C",
+      "price": 780000,
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "30 sq meters",
+      "home_detail": "Embrace coastal living at its finest in Gujwa-eup, Jeju. These modern residences offer spacious interiors, stunning sea views, and a relaxing ambiance. Enjoy easy access to the beach, seaside cafes, and local artisan shops.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Beachfront Access", "Rooftop Terrace"],
+      "walk": 85,
+      "bicycle": 90,
+      "lat": 33.2509,
+      "lng": 126.5634,
+      "images": ["r19.jpeg", "16.jpeg", "17.jpeg"]
+    },
+    {
+      "name": "Jeju Forest Retreat",
+      "local": "Jeju",
+      "address": "Jungmun 567 Jeju Forest Retreat, 22F",
+      "price": 720000,
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "26 sq meters",
+      "home_detail": "Immerse yourself in the tranquility of Jeju's forests at the Jeju Forest Retreat. This unique retreat offers cozy accommodations, nestled within lush greenery and natural beauty. Unwind with forest walks and meditation sessions.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Microwave",
+        "Balcony",
+        "Refrigerator"
+      ],
+      "community_amenity": ["Forest Trails", "Outdoor Seating"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 33.4357,
+      "lng": 126.915,
+      "images": ["r20.jpeg", "18.jpeg", "19.jpeg"]
+    },
+    {
+      "name": "Harborview Heights Apartments",
+      "local": "Incheon",
+      "address": "Yeonsu-gu 123 Harborview Heights Apartments, 8D",
+      "price": 720000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "26 sq meters",
+      "home_detail": "Experience picturesque harbor views at Harborview Heights Apartments in Yeonsu-gu, Incheon. This modern apartment offers a comfortable living space, sleek interiors, and a private balcony. Enjoy nearby waterfront restaurants and leisure activities.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Harborfront Access", "Fitness Center"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 37.4645,
+      "lng": 126.6567,
+      "images": ["r21.jpeg", "20.jpeg", "21.jpeg"]
+    },
+    {
+      "name": "Cityscape Living Suites",
+      "local": "Incheon",
+      "address": "Jung-gu 456 Cityscape Living Suites, 12B",
+      "price": 580000,
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "20 sq meters",
+      "home_detail": "Discover modern city living at Cityscape Living Suites in Jung-gu, Incheon. These contemporary suites offer stylish designs, efficient layouts, and access to nearby shopping and entertainment. Embrace the vibrant urban lifestyle.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": ["Air Conditioning", "Microwave", "Refrigerator"],
+      "community_amenity": ["City Views", "Rooftop Garden"],
+      "walk": 70,
+      "bicycle": 75,
+      "lat": 37.5678,
+      "lng": 126.785,
+      "images": ["r22.jpeg", "1.jpeg", "2.jpeg"]
+    },
+    {
+      "name": "Coastal Breeze Residences",
+      "local": "Incheon",
+      "address": "Gyeyang-gu 789 Coastal Breeze Residences, 5A",
+      "price": 660000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "24 sq meters",
+      "home_detail": "Embrace the coastal breeze at Gyeyang-gu's Coastal Breeze Residences in Incheon. These cozy residences offer serene interiors, ocean-inspired designs, and a peaceful ambiance. Enjoy strolls along the nearby boardwalk and beachfront cafes.",
+      "animal_welcome": "CAT",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Boardwalk Access", "Outdoor Seating"],
+      "walk": 75,
+      "bicycle": 80,
+      "lat": 37.5891,
+      "lng": 126.7223,
+      "images": ["r23.jpeg", "3.jpeg", "4.jpeg"]
+    },
+    {
+      "name": "Skyline View Apartments",
+      "local": "Incheon",
+      "address": "Namdong-gu 101 Skyline View Apartments, 18C",
+      "price": 780000,
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "30 sq meters",
+      "home_detail": "Enjoy breathtaking skyline views at Skyline View Apartments in Namdong-gu, Incheon. These modern apartments offer spacious layouts, contemporary finishes, and access to nearby dining and entertainment. Immerse yourself in city living.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Cityscape Views", "Fitness Center"],
+      "walk": 85,
+      "bicycle": 90,
+      "lat": 37.5321,
+      "lng": 126.61,
+      "images": ["r24.jpeg", "5.jpeg", "6.jpeg"]
+    },
+    {
+      "name": "Tranquil Waterside Homes",
+      "local": "Incheon",
+      "address": "Bupyeong-gu 567 Tranquil Waterside Homes, 22F",
+      "price": 720000,
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "26 sq meters",
+      "home_detail": "Discover tranquility by the waterside at Bupyeong-gu's Tranquil Waterside Homes in Incheon. These well-designed homes offer a peaceful environment, soothing water views, and easy access to riverside parks. Experience a serene escape from the city.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Microwave",
+        "Balcony",
+        "Refrigerator"
+      ],
+      "community_amenity": ["Waterside Views", "Picnic Area"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 37.6123,
+      "lng": 126.5389,
+      "images": ["r25.jpeg", "7.jpeg", "8.jpeg"]
+    },
+    {
+      "name": "Countryside Retreat Homes",
+      "local": "Gyeonggi-do",
+      "address": "Yongin-si 123 Countryside Retreat Homes, 8D",
+      "price": 680000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "25 sq meters",
+      "home_detail": "Escape to the tranquil countryside at Yongin-si's Countryside Retreat Homes in Gyeonggi-do. These charming homes offer a serene environment, rustic interiors, and access to nearby hiking trails and traditional markets. Embrace a peaceful rural lifestyle.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Garden",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Hiking Trails", "Community Garden"],
+      "walk": 75,
+      "bicycle": 80,
+      "lat": 37.4132,
+      "lng": 127.5183,
+      "images": ["r26.jpeg", "9.jpeg", "10.jpeg"]
+    },
+    {
+      "name": "Garden Oasis Residences",
+      "local": "Gyeonggi-do",
+      "address": "Suwon-si 456 Garden Oasis Residences, 12B",
+      "price": 620000,
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "20 sq meters",
+      "home_detail": "Indulge in a garden oasis at Suwon-si's Garden Oasis Residences in Gyeonggi-do. These modern residences offer a cozy living space, lush garden views, and a private patio. Experience a harmonious blend of nature and comfort.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Microwave",
+        "Garden",
+        "Refrigerator"
+      ],
+      "community_amenity": ["Garden Access", "Outdoor Seating"],
+      "walk": 70,
+      "bicycle": 75,
+      "lat": 37.291,
+      "lng": 127.1221,
+      "images": ["r27.jpeg", "11.jpeg", "12.jpeg"]
+    },
+    {
+      "name": "Suburban Serenity Apartments",
+      "local": "Gyeonggi-do",
+      "address": "Bucheon-si 789 Suburban Serenity Apartments, 5A",
+      "price": 740000,
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "28 sq meters",
+      "home_detail": "Experience suburban serenity at Bucheon-si's Suburban Serenity Apartments in Gyeonggi-do. These comfortable apartments offer a peaceful living environment, modern amenities, and access to nearby parks and shopping centers. Enjoy a relaxed suburban lifestyle.",
+      "animal_welcome": "CAT",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Park Access", "Fitness Center"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 37.3567,
+      "lng": 127.0034,
+      "images": ["r28.jpeg", "13.jpeg", "14.jpeg"]
+    },
+    {
+      "name": "Riverside Haven Homes",
+      "local": "Gyeonggi-do",
+      "address": "Goyang-si 101 Riverside Haven Homes, 18C",
+      "price": 760000,
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "30 sq meters",
+      "home_detail": "Find refuge by the riverside at Goyang-si's Riverside Haven Homes in Gyeonggi-do. These homes offer stunning river views, spacious layouts, and a calming atmosphere. Experience riverside walks and picnics in the nearby park.",
+      "animal_welcome": "NONE",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Dishwasher",
+        "Balcony",
+        "Washer/Dryer"
+      ],
+      "community_amenity": ["Riverside Views", "Picnic Area"],
+      "walk": 85,
+      "bicycle": 90,
+      "lat": 37.2389,
+      "lng": 127.4267,
+      "images": ["r29.jpeg", "15.jpeg", "16.jpeg"]
+    },
+    {
+      "name": "Meadowside Meadows Apartments",
+      "local": "Gyeonggi-do",
+      "address": "Ansan-si 567 Meadowside Meadows Apartments, 22F",
+      "price": 720000,
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "26 sq meters",
+      "home_detail": "Discover the beauty of meadowside living at Ansan-si's Meadowside Meadows Apartments in Gyeonggi-do. These well-designed apartments offer a serene environment, picturesque meadow views, and easy access to nearby nature reserves. Immerse yourself in tranquility.",
+      "animal_welcome": "DOG",
+      "in_unity_amenity": [
+        "Air Conditioning",
+        "Microwave",
+        "Balcony",
+        "Refrigerator"
+      ],
+      "community_amenity": ["Meadow Views", "Outdoor Seating"],
+      "walk": 80,
+      "bicycle": 85,
+      "lat": 37.1876,
+      "lng": 127.315,
+      "images": ["r30.jpeg", "17.jpeg", "18.jpeg"]
+    }
+  ],
+  "sale": [
+    {
+      "name": "Angel City 3rd Phase",
+      "address": "170 Geumgok-dong Angel City 3rd Phase 703",
+      "price": "$1,000,000,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "17 sq meters",
+      "home_detail": "Located just 2 minutes from Migeum Station, Angel City 3rd Phase offers a prime urban living experience. This spacious duplex unit boasts modern design, with easy access to public transportation and nearby amenities.",
+      "home_fact": {
+        "time_on": "15 days",
+        "prototype": "Duplex",
+        "year_built": 2017,
+        "local": "Seoul",
+        "lot_size": "1,000 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,356,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 37.5549,
+      "lng": 126.9726,
+      "images": ["s1.jpeg", "1.jpeg", "2.jpeg"]
+    },
+    {
+      "name": "Central Plaza Condos",
+      "address": "Gangnam-gu 456 Central Plaza Condos, 15B",
+      "price": "$890,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "25 sq meters",
+      "home_detail": "Experience luxury and convenience at Central Plaza Condos in Gangnam-gu, Seoul. This modern unit offers stunning city views, high-end finishes, and a central location. Enjoy access to top-notch amenities and entertainment options.",
+      "home_fact": {
+        "time_on": "22 days",
+        "prototype": "Condo",
+        "year_built": 2015,
+        "local": "Seoul",
+        "lot_size": "800 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$925,000",
+        "m_price": "$700,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3%"
+      },
+      "lat": 37.5283,
+      "lng": 127.0407,
+      "images": ["s2.jpeg", "3.jpeg", "4.jpeg"]
+    },
+    {
+      "name": "Riverside Oasis Townhomes",
+      "address": "Gwangjin-gu 789 Riverside Oasis Townhomes, 9D",
+      "price": "$720,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "22 sq meters",
+      "home_detail": "Discover serenity by the riverside at Riverside Oasis Townhomes in Gwangjin-gu, Seoul. This charming townhome offers a peaceful living environment, scenic views, and easy access to nearby parks and cultural attractions.",
+      "home_fact": {
+        "time_on": "18 days",
+        "prototype": "Townhome",
+        "year_built": 2018,
+        "local": "Seoul",
+        "lot_size": "700 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$750,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2%"
+      },
+      "lat": 37.4955,
+      "lng": 127.0376,
+      "images": ["s3.jpeg", "5.jpeg", "6.jpeg"]
+    },
+    {
+      "name": "Skyline Heights Penthouse",
+      "address": "Mapo-gu 101 Skyline Heights Penthouse, 18A",
+      "price": "$1,450,000",
+      "bad_count": 4,
+      "toilet_count": 3,
+      "acreage": "32 sq meters",
+      "home_detail": "Experience the pinnacle of luxury at Skyline Heights Penthouse in Mapo-gu, Seoul. This extravagant penthouse offers breathtaking skyline views, spacious living areas, and high-end amenities. Indulge in a lavish urban lifestyle.",
+      "home_fact": {
+        "time_on": "30 days",
+        "prototype": "Penthouse",
+        "year_built": 2016,
+        "local": "Seoul",
+        "lot_size": "1,200 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,680,000",
+        "m_price": "$1,300,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3.5%"
+      },
+      "lat": 37.5512,
+      "lng": 127.1028,
+      "images": ["s4.jpeg", "7.jpeg", "8.jpeg"]
+    },
+    {
+      "name": "Gardenview Heights Villas",
+      "address": "Seocho-gu 567 Gardenview Heights Villas, 22F",
+      "price": "$980,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "28 sq meters",
+      "home_detail": "Enjoy serene garden views at Gardenview Heights Villas in Seocho-gu, Seoul. This elegant villa offers a comfortable and spacious living space, lush greenery, and a private outdoor area. Embrace a luxurious and tranquil lifestyle.",
+      "home_fact": {
+        "time_on": "25 days",
+        "prototype": "Villa",
+        "year_built": 2019,
+        "local": "Seoul",
+        "lot_size": "1,000 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,020,000",
+        "m_price": "$900,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2%"
+      },
+      "lat": 37.5803,
+      "lng": 126.983,
+      "images": ["s5.jpeg", "9.jpeg", "10.jpeg"]
+    },
+    {
+      "name": "Metropolitan Tower Condos",
+      "address": "Yongsan-gu 789 Metropolitan Tower Condos, 7C",
+      "price": "$1,200,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "30 sq meters",
+      "home_detail": "Experience metropolitan living at its finest at Metropolitan Tower Condos in Yongsan-gu, Seoul. This upscale condo offers stylish interiors, modern amenities, and stunning cityscape views. Immerse yourself in the heart of the city.",
+      "home_fact": {
+        "time_on": "20 days",
+        "prototype": "Condo",
+        "year_built": 2017,
+        "local": "Seoul",
+        "lot_size": "900 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,280,000",
+        "m_price": "$1,100,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.8%"
+      },
+      "lat": 37.6117,
+      "lng": 127.0281,
+      "images": ["s6.jpeg", "11.jpeg", "12.jpeg"]
+    },
+    {
+      "name": "Uptown Loft Apartments",
+      "address": "Songpa-gu 101 Uptown Loft Apartments, 25D",
+      "price": "$840,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "22 sq meters",
+      "home_detail": "Experience urban loft living at Uptown Loft Apartments in Songpa-gu, Seoul. This contemporary loft offers open-concept design, high ceilings, and modern finishes. Enjoy proximity to entertainment, dining, and cultural hotspots.",
+      "home_fact": {
+        "time_on": "28 days",
+        "prototype": "Loft",
+        "year_built": 2014,
+        "local": "Seoul",
+        "lot_size": "800 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$875,000",
+        "m_price": "$700,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3%"
+      },
+      "lat": 37.539,
+      "lng": 127.0984,
+      "images": ["s7.jpeg", "13.jpeg", "14.jpeg"]
+    },
+    {
+      "name": "Cityscape View Townhomes",
+      "address": "Dongdaemun-gu 567 Cityscape View Townhomes, 20F",
+      "price": "$950,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "26 sq meters",
+      "home_detail": "Embrace cityscape views at Dongdaemun-gu's Cityscape View Townhomes in Seoul. These modern townhomes offer a blend of comfort and style, with access to nearby cultural attractions and shopping districts. Discover the vibrant city from your doorstep.",
+      "home_fact": {
+        "time_on": "24 days",
+        "prototype": "Townhome",
+        "year_built": 2016,
+        "local": "Seoul",
+        "lot_size": "850 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$990,000",
+        "m_price": "$800,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 37.527,
+      "lng": 126.9301,
+      "images": ["s8.jpeg", "15.jpeg", "16.jpeg"]
+    },
+    {
+      "name": "Elegant Heights Residences",
+      "address": "Guro-gu 789 Elegant Heights Residences, 12A",
+      "price": "$1,150,000",
+      "bad_count": 4,
+      "toilet_count": 3,
+      "acreage": "32 sq meters",
+      "home_detail": "Indulge in elegance at Guro-gu's Elegant Heights Residences in Seoul. These luxurious residences offer grand interiors, high-end amenities, and a sophisticated ambiance. Elevate your living experience in the heart of the city.",
+      "home_fact": {
+        "time_on": "32 days",
+        "prototype": "Residence",
+        "year_built": 2015,
+        "local": "Seoul",
+        "lot_size": "1,100 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,280,000",
+        "m_price": "$1,050,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3%"
+      },
+      "lat": 37.6063,
+      "lng": 127.0417,
+      "images": ["s9.jpeg", "17.jpeg", "18.jpeg"]
+    },
+    {
+      "name": "Rooftop Retreat Penthouse",
+      "address": "Jongno-gu 567 Rooftop Retreat Penthouse, 30B",
+      "price": "$1,750,000",
+      "bad_count": 5,
+      "toilet_count": 4,
+      "acreage": "38 sq meters",
+      "home_detail": "Escape to the ultimate rooftop retreat at Jongno-gu's Rooftop Retreat Penthouse in Seoul. This exquisite penthouse offers panoramic city views, spacious living areas, and top-tier amenities. Experience a lavish and luxurious urban lifestyle.",
+      "home_fact": {
+        "time_on": "40 days",
+        "prototype": "Penthouse",
+        "year_built": 2013,
+        "local": "Seoul",
+        "lot_size": "1,500 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,990,000",
+        "m_price": "$1,600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3.8%"
+      },
+      "lat": 37.4755,
+      "lng": 127.015,
+      "images": ["s10.jpeg", "19.jpeg", "20.jpeg"]
+    },
+    {
+      "name": "Seaside Serenity Villas",
+      "address": "Haeundae-gu 123 Seaside Serenity Villas, 8D",
+      "price": "$980,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "20 sq meters",
+      "home_detail": "Experience seaside serenity at Haeundae-gu's Seaside Serenity Villas in Busan. This charming villa offers breathtaking ocean views, cozy interiors, and easy access to nearby beaches and coastal attractions. Embrace coastal living.",
+      "home_fact": {
+        "time_on": "18 days",
+        "prototype": "Villa",
+        "year_built": 2016,
+        "local": "Busan",
+        "lot_size": "800 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,020,000",
+        "m_price": "$850,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 35.1549,
+      "lng": 129.0552,
+      "images": ["s11.jpeg", "21.jpeg", "1.jpeg"]
+    },
+    {
+      "name": "Downtown Haven Apartments",
+      "address": "Dongnae-gu 456 Downtown Haven Apartments, 12B",
+      "price": "$750,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "18 sq meters",
+      "home_detail": "Discover downtown living at its best at Dongnae-gu's Downtown Haven Apartments in Busan. This modern apartment offers a vibrant city lifestyle, sleek interiors, and easy access to shopping, dining, and cultural experiences.",
+      "home_fact": {
+        "time_on": "22 days",
+        "prototype": "Apartment",
+        "year_built": 2015,
+        "local": "Busan",
+        "lot_size": "700 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$800,000",
+        "m_price": "$650,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.8%"
+      },
+      "lat": 35.1901,
+      "lng": 129.089,
+      "images": ["s12.jpeg", "2.jpeg", "3.jpeg"]
+    },
+    {
+      "name": "Mountainview Retreat Homes",
+      "address": "Geumjeong-gu 789 Mountainview Retreat Homes, 5A",
+      "price": "$680,000",
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "16 sq meters",
+      "home_detail": "Escape to the tranquility of the mountains at Geumjeong-gu's Mountainview Retreat Homes in Busan. These cozy homes offer a peaceful living environment, scenic mountain views, and access to nearby hiking trails and nature reserves. Embrace nature's beauty.",
+      "home_fact": {
+        "time_on": "20 days",
+        "prototype": "Home",
+        "year_built": 2017,
+        "local": "Busan",
+        "lot_size": "600 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$720,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2%"
+      },
+      "lat": 35.2047,
+      "lng": 129.0654,
+      "images": ["s13.jpeg", "4.jpeg", "5.jpeg"]
+    },
+    {
+      "name": "Coastal Breeze Condos",
+      "address": "Suyeong-gu 101 Coastal Breeze Condos, 18C",
+      "price": "$1,150,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "22 sq meters",
+      "home_detail": "Experience the refreshing coastal breeze at Suyeong-gu's Coastal Breeze Condos in Busan. These modern condos offer stunning ocean views, contemporary interiors, and easy access to nearby beaches and coastal activities. Embrace beachside living.",
+      "home_fact": {
+        "time_on": "28 days",
+        "prototype": "Condo",
+        "year_built": 2018,
+        "local": "Busan",
+        "lot_size": "700 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,280,000",
+        "m_price": "$1,050,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3%"
+      },
+      "lat": 35.176,
+      "lng": 129.0733,
+      "images": ["s14.jpeg", "6.jpeg", "7.jpeg"]
+    },
+    {
+      "name": "Urban Oasis Townhomes",
+      "address": "Busanjin-gu 567 Urban Oasis Townhomes, 22F",
+      "price": "$890,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "21 sq meters",
+      "home_detail": "Discover an urban oasis at Busanjin-gu's Urban Oasis Townhomes in Busan. These contemporary townhomes offer a peaceful retreat within the city, modern amenities, and easy access to shopping, dining, and entertainment.",
+      "home_fact": {
+        "time_on": "24 days",
+        "prototype": "Townhome",
+        "year_built": 2016,
+        "local": "Busan",
+        "lot_size": "750 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$920,000",
+        "m_price": "$800,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 35.2188,
+      "lng": 129.1039,
+      "images": ["s15.jpeg", "8.jpeg", "9.jpeg"]
+    },
+    {
+      "name": "Seaside Paradise Villas",
+      "address": "Seogwipo-si 123 Seaside Paradise Villas, 8D",
+      "price": "$1,200,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "25 sq meters",
+      "home_detail": "Experience the ultimate seaside paradise at Seogwipo-si's Seaside Paradise Villas in Jeju. This luxurious villa offers stunning oceanfront views, elegant interiors, and access to nearby beaches and coastal attractions. Live the dream coastal life.",
+      "home_fact": {
+        "time_on": "20 days",
+        "prototype": "Villa",
+        "year_built": 2016,
+        "local": "Jeju",
+        "lot_size": "900 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,350,000",
+        "m_price": "$1,100,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 33.5023,
+      "lng": 126.5154,
+      "images": ["s16.jpeg", "10.jpeg", "11.jpeg"]
+    },
+    {
+      "name": "Mountain Retreat Homes",
+      "address": "Jeju-si 456 Mountain Retreat Homes, 12B",
+      "price": "$850,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "22 sq meters",
+      "home_detail": "Escape to the tranquil mountains at Jeju-si's Mountain Retreat Homes in Jeju. These cozy homes offer a peaceful living environment, serene mountain views, and access to nearby hiking trails and natural wonders. Embrace the beauty of nature.",
+      "home_fact": {
+        "time_on": "18 days",
+        "prototype": "Home",
+        "year_built": 2015,
+        "local": "Jeju",
+        "lot_size": "800 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$900,000",
+        "m_price": "$750,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.8%"
+      },
+      "lat": 33.4271,
+      "lng": 126.5489,
+      "images": ["s17.jpeg", "12.jpeg", "13.jpeg"]
+    },
+    {
+      "name": "Coastal Bliss Condos",
+      "address": "Jeju-si 789 Coastal Bliss Condos, 5A",
+      "price": "$1,050,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "24 sq meters",
+      "home_detail": "Experience coastal bliss at Jeju-si's Coastal Bliss Condos in Jeju. These modern condos offer breathtaking ocean views, contemporary interiors, and easy access to nearby beaches and coastal activities. Immerse yourself in island living.",
+      "home_fact": {
+        "time_on": "22 days",
+        "prototype": "Condo",
+        "year_built": 2017,
+        "local": "Jeju",
+        "lot_size": "850 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,180,000",
+        "m_price": "$950,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 33.4567,
+      "lng": 126.3345,
+      "images": ["s18.jpeg", "14.jpeg", "15.jpeg"]
+    },
+    {
+      "name": "Jeju Gardenview Residences",
+      "address": "Jeju-si 101 Jeju Gardenview Residences, 18C",
+      "price": "$1,350,000",
+      "bad_count": 4,
+      "toilet_count": 3,
+      "acreage": "30 sq meters",
+      "home_detail": "Indulge in a gardenview paradise at Jeju-si's Gardenview Residences in Jeju. These elegant residences offer lush garden views, spacious living areas, and access to nearby natural attractions. Live in harmony with nature.",
+      "home_fact": {
+        "time_on": "25 days",
+        "prototype": "Residence",
+        "year_built": 2018,
+        "local": "Jeju",
+        "lot_size": "1,000 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,480,000",
+        "m_price": "$1,200,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3%"
+      },
+      "lat": 33.5709,
+      "lng": 126.2501,
+      "images": ["s19.jpeg", "16.jpeg", "17.jpeg"]
+    },
+    {
+      "name": "Oceanfront Escape Penthouse",
+      "address": "Seogwipo-si 567 Oceanfront Escape Penthouse, 22F",
+      "price": "$1,750,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "28 sq meters",
+      "home_detail": "Escape to the ultimate oceanfront retreat at Seogwipo-si's Oceanfront Escape Penthouse in Jeju. This exquisite penthouse offers panoramic ocean views, luxurious interiors, and access to nearby beaches and coastal delights. Live the coastal dream.",
+      "home_fact": {
+        "time_on": "28 days",
+        "prototype": "Penthouse",
+        "year_built": 2019,
+        "local": "Jeju",
+        "lot_size": "1,200 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,980,000",
+        "m_price": "$1,600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "3.5%"
+      },
+      "lat": 33.5609,
+      "lng": 126.2301,
+      "images": ["s20.jpeg", "18.jpeg", "19.jpeg"]
+    },
+    {
+      "name": "Countryside Retreat Homes",
+      "address": "Yongin-si 123 Countryside Retreat Homes, 8D",
+      "price": "$680,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "25 sq meters",
+      "home_detail": "Escape to the tranquil countryside at Yongin-si's Countryside Retreat Homes in Gyeonggi-do. These charming homes offer a serene environment, rustic interiors, and access to nearby hiking trails and traditional markets. Embrace a peaceful rural lifestyle.",
+      "home_fact": {
+        "time_on": "15 days",
+        "prototype": "Duplex",
+        "year_built": 2017,
+        "local": "Gyeonggi-do",
+        "lot_size": "1,000 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$800,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 37.2981,
+      "lng": 127.3465,
+      "images": ["s21.jpeg", "20.jpeg", "21.jpeg"]
+    },
+    {
+      "name": "Garden Oasis Residences",
+      "address": "Suwon-si 456 Garden Oasis Residences, 12B",
+      "price": "$620,000",
+      "bad_count": 1,
+      "toilet_count": 1,
+      "acreage": "20 sq meters",
+      "home_detail": "Indulge in a garden oasis at Suwon-si's Garden Oasis Residences in Gyeonggi-do. These modern residences offer a cozy living space, lush garden views, and a private patio. Experience a harmonious blend of nature and comfort.",
+      "home_fact": {
+        "time_on": "22 days",
+        "prototype": "Residence",
+        "year_built": 2015,
+        "local": "Gyeonggi-do",
+        "lot_size": "800 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$675,000",
+        "m_price": "$500,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.8%"
+      },
+      "lat": 37.2567,
+      "lng": 127.1889,
+      "images": ["s22.jpeg", "1.jpeg", "2.jpeg"]
+    },
+    {
+      "name": "Suburban Serenity Apartments",
+      "address": "Bucheon-si 789 Suburban Serenity Apartments, 5A",
+      "price": "$740,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "28 sq meters",
+      "home_detail": "Experience suburban serenity at Bucheon-si's Suburban Serenity Apartments in Gyeonggi-do. These comfortable apartments offer a peaceful living environment, modern amenities, and access to nearby parks and shopping centers. Enjoy a relaxed suburban lifestyle.",
+      "home_fact": {
+        "time_on": "20 days",
+        "prototype": "Apartment",
+        "year_built": 2018,
+        "local": "Gyeonggi-do",
+        "lot_size": "850 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$780,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 37.4213,
+      "lng": 127.1102,
+      "images": ["s23.jpeg", "3.jpeg", "4.jpeg"]
+    },
+    {
+      "name": "Riverside Haven Homes",
+      "address": "Goyang-si 101 Riverside Haven Homes, 18C",
+      "price": "$760,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "30 sq meters",
+      "home_detail": "Find refuge by the riverside at Goyang-si's Riverside Haven Homes in Gyeonggi-do. These homes offer stunning river views, spacious layouts, and a calming atmosphere. Experience riverside walks and picnics in the nearby park.",
+      "home_fact": {
+        "time_on": "18 days",
+        "prototype": "Home",
+        "year_built": 2016,
+        "local": "Gyeonggi-do",
+        "lot_size": "900 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$800,000",
+        "m_price": "$650,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 37.3569,
+      "lng": 127.0297,
+      "images": ["s24.jpeg", "5.jpeg", "6.jpeg"]
+    },
+    {
+      "name": "Meadowside Meadows Apartments",
+      "address": "Ansan-si 567 Meadowside Meadows Apartments, 22F",
+      "price": "$720,000",
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "26 sq meters",
+      "home_detail": "Discover the beauty of meadowside living at Ansan-si's Meadowside Meadows Apartments in Gyeonggi-do. These well-designed apartments offer a serene environment, picturesque meadow views, and easy access to nearby nature reserves. Immerse yourself in tranquility.",
+      "home_fact": {
+        "time_on": "20 days",
+        "prototype": "Apartment",
+        "year_built": 2017,
+        "local": "Gyeonggi-do",
+        "lot_size": "850 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$750,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2%"
+      },
+      "lat": 37.5098,
+      "lng": 127.112,
+      "images": ["s25.jpeg", "7.jpeg", "8.jpeg"]
+    },
+    {
+      "name": "Harborview Heights Condos",
+      "address": "Yeonsu-gu 123 Harborview Heights Condos, 8D",
+      "price": "$850,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "23 sq meters",
+      "home_detail": "Enjoy stunning harbor views at Yeonsu-gu's Harborview Heights Condos in Incheon. These modern condos offer a luxurious living experience, contemporary interiors, and easy access to nearby marinas and waterfront attractions. Live by the water.",
+      "home_fact": {
+        "time_on": "18 days",
+        "prototype": "Condo",
+        "year_built": 2016,
+        "local": "Incheon",
+        "lot_size": "800 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$900,000",
+        "m_price": "$750,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 37.4645,
+      "lng": 126.6567,
+      "images": ["s26.jpeg", "9.jpeg", "10.jpeg"]
+    },
+    {
+      "name": "Urban Skyline Residences",
+      "address": "Namdong-gu 456 Urban Skyline Residences, 12B",
+      "price": "$720,000",
+      "bad_count": 2,
+      "toilet_count": 2,
+      "acreage": "21 sq meters",
+      "home_detail": "Experience the urban skyline at Namdong-gu's Urban Skyline Residences in Incheon. These contemporary residences offer cityscape views, sleek interiors, and access to nearby shopping, dining, and entertainment. Embrace the city lifestyle.",
+      "home_fact": {
+        "time_on": "22 days",
+        "prototype": "Residence",
+        "year_built": 2015,
+        "local": "Incheon",
+        "lot_size": "750 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$750,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.8%"
+      },
+      "lat": 37.5678,
+      "lng": 126.785,
+      "images": ["s27.jpeg", "11.jpeg", "12.jpeg"]
+    },
+    {
+      "name": "Coastal Retreat Homes",
+      "address": "Gyeyang-gu 789 Coastal Retreat Homes, 5A",
+      "price": "$980,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "24 sq meters",
+      "home_detail": "Escape to the coastal retreat at Gyeyang-gu's Coastal Retreat Homes in Incheon. These charming homes offer ocean-inspired interiors, proximity to the beach, and a serene environment. Embrace the soothing sound of waves.",
+      "home_fact": {
+        "time_on": "20 days",
+        "prototype": "Home",
+        "year_built": 2017,
+        "local": "Incheon",
+        "lot_size": "850 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,020,000",
+        "m_price": "$850,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.5%"
+      },
+      "lat": 37.5891,
+      "lng": 126.7223,
+      "images": ["s28.jpeg", "13.jpeg", "14.jpeg"]
+    },
+    {
+      "name": "Cityscape View Apartments",
+      "address": "Bupyeong-gu 101 Cityscape View Apartments, 18C",
+      "price": "$690,000",
+      "bad_count": 2,
+      "toilet_count": 1,
+      "acreage": "18 sq meters",
+      "home_detail": "Experience breathtaking cityscape views at Bupyeong-gu's Cityscape View Apartments in Incheon. These well-designed apartments offer modern living spaces, city skyline views, and convenient access to transportation and amenities. Live in the heart of the city.",
+      "home_fact": {
+        "time_on": "18 days",
+        "prototype": "Apartment",
+        "year_built": 2016,
+        "local": "Incheon",
+        "lot_size": "700 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$725,000",
+        "m_price": "$600,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2%"
+      },
+      "lat": 37.5321,
+      "lng": 126.61,
+      "images": ["s29.jpeg", "15.jpeg", "16.jpeg"]
+    },
+    {
+      "name": "Seaside Living Villas",
+      "address": "Ganghwa-gun 567 Seaside Living Villas, 22F",
+      "price": "$1,100,000",
+      "bad_count": 3,
+      "toilet_count": 2,
+      "acreage": "26 sq meters",
+      "home_detail": "Enjoy the beauty of seaside living at Ganghwa-gun's Seaside Living Villas in Incheon. These elegant villas offer stunning ocean views, luxurious interiors, and access to nearby beaches and coastal attractions. Live by the sea.",
+      "home_fact": {
+        "time_on": "24 days",
+        "prototype": "Villa",
+        "year_built": 2017,
+        "local": "Incheon",
+        "lot_size": "900 sq meters"
+      },
+      "price_insight": {
+        "list_price": "$1,250,000",
+        "m_price": "$1,000,000",
+        "estimate": "$0000",
+        "price_per": "$00",
+        "agent_fee": "2.8%"
+      },
+      "lat": 37.6123,
+      "lng": 126.5389,
+      "images": ["s30.jpeg", "17.jpeg", "18.jpeg"]
+    }
+  ]
+}

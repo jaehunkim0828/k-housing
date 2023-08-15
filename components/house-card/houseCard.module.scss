@@ -1,0 +1,30 @@
+@import "@/styles/layout.scss";
+
+.houseCard {
+  position: relative;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  @include flex-row(center, flex-end);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .context {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    border-radius: 2px;
+    @include flex-column(center, flex-start);
+    gap: 10px;
+    padding: 5px;
+
+    strong {
+      font-size: 16px;
+    }
+
+    span {
+      font-size: 10px;
+    }
+  }
+}

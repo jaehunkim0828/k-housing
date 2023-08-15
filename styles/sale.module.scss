@@ -1,0 +1,161 @@
+@import "@/styles/layout.scss";
+.form {
+  @include flex-column(center, center);
+  width: 100%;
+  padding: 30px 0;
+
+  .tbody {
+    @include flex-column(center, flex-start);
+    width: 100%;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .tr {
+      @include flex-row(space-between, center);
+      width: 100%;
+      border-bottom: 1px solid #d9d9d9;
+      gap: 20px;
+
+      .td {
+        @include flex-row(space-between, center);
+        width: 50%;
+        padding: 20px 0;
+
+        div:first-child {
+          color: #585858;
+        }
+      }
+
+      .td2 {
+        @include flex-row(flex-start, center);
+        width: 50%;
+        padding: 20px 0;
+
+        li {
+          width: 25%;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+
+  h5 {
+    margin: 20px 0;
+    font-weight: 400;
+    color: #003ede;
+  }
+
+  .transportation {
+    width: 100%;
+    @include flex-row(space-between, center);
+    padding: 20px 0;
+    height: 180px;
+
+    .score {
+      width: 50%;
+      @include flex-column(space-between, flex-start);
+      height: 100%;
+
+      strong {
+        margin-bottom: 20px;
+      }
+
+      .list {
+        @include flex-row(flex-start, center);
+        gap: 30px;
+        .trans {
+          @include flex-column(center, flex-start);
+          gap: 10px;
+
+          .point {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+
+    .rest {
+      width: 50%;
+      height: 100%;
+      @include flex-column(space-between, flex-start);
+
+      .card {
+        width: 100%;
+        @include flex-row(flex-start, center);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        gap: 20px;
+
+        .info {
+          @include flex-column(flex-start, flex-start);
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.homePosition {
+  width: 100%;
+  @include flex-row(center, center);
+  height: 500px;
+
+  .wrapper {
+    @include flex-column(center, center);
+    gap: 20px;
+  }
+
+  .googleMap {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+  }
+
+  .mapBar {
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    height: 60px;
+    @include flex-row(flex-start, center);
+    .img {
+      width: 60px;
+      height: 100%;
+      border-right: 0.5px solid #bcbcbc;
+      @include flex-row(center, center);
+    }
+
+    .detail {
+      width: 100%;
+      @include flex-row(space-between, center);
+      padding: 0 20px;
+      font-weight: bold;
+      div:last-child {
+        color: #003ede;
+      }
+    }
+  }
+}
+
+.welcome {
+  @include flex-row(flex-start, center);
+  width: 100%;
+  padding: 20px 0 40px 0;
+  border-bottom: 1px solid #d9d9d9;
+  gap: 15px;
+
+  .animal {
+    width: 200px;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 10px;
+    @include flex-row(flex-start, center);
+  }
+}
+
+.wrapper {
+  @include wrapper();
+  @include flex-row(center, center);
+}

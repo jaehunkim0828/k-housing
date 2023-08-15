@@ -1,0 +1,43 @@
+$max-width: 1200px;
+
+@mixin flex-row($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-column($justify, $align) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin main-container() {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  background-color: white;
+}
+
+@mixin section() {
+  padding: 30px;
+  width: 100%;
+  @include flex-row(center, center);
+}
+
+@mixin wrapper() {
+  width: 100%;
+  max-width: #{$max-width};
+}
+
+@mixin mobile {
+  @media (max-width: #{1200px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{1200px}) {
+    @content;
+  }
+}

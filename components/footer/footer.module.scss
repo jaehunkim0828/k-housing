@@ -1,0 +1,33 @@
+@import "@/styles/layout.scss";
+
+.footerContainer {
+  width: 100%;
+  padding: 60px 30px;
+  height: 600px;
+  @include flex-row(center, flex-start);
+  background-image: url("/images/backgroundimg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  .wrapper {
+    @include wrapper();
+    @include flex-row(space-between, flex-start);
+
+    .form {
+      @include flex-column(center, flex-start);
+      gap: 20px;
+
+      .list {
+        @include flex-column(center, flex-start);
+        font-weight: 300;
+        font-size: 14px;
+
+        gap: 10px;
+        .image {
+          width: 150px;
+        }
+      }
+    }
+  }
+}

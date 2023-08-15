@@ -1,0 +1,43 @@
+@import "@/styles/layout.scss";
+
+.actionContainer {
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 450px;
+  padding: 20px;
+  @include flex-column(space-between, center);
+
+  h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  span {
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  button {
+    border: 1px solid #003ede;
+    color: #003ede;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.33) 0px 2px 6px;
+  }
+
+  @include mobile {
+    width: 30%;
+  }
+
+  .actionImage {
+    width: 200px;
+
+    @include mobile {
+      width: 100%;
+    }
+  }
+}

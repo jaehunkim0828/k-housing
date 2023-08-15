@@ -1,0 +1,166 @@
+@import "./layout";
+
+.houseContainer {
+  @include main-container();
+  @include flex-column(center, center);
+
+  .local {
+    height: 40px;
+    width: 100%;
+    @include flex-row(center, center);
+    position: relative;
+
+    .search {
+      position: absolute;
+      left: 50px;
+      @include flex-row(center, center);
+
+      input {
+        padding: 5px 30px 5px 5px;
+        width: 200px;
+        border: 1px solid black;
+        outline: none;
+      }
+      button {
+        padding: 5px;
+        position: relative;
+        right: 30px;
+        top: 2px;
+      }
+    }
+  }
+
+  .main {
+    width: 100%;
+    @include flex-row(center, center);
+  }
+
+  .googleMap {
+    width: 100%;
+    height: calc(100vh - 120px);
+  }
+  .filter {
+    position: relative;
+    width: 1000px;
+    height: calc(100vh - 120px);
+    background-color: white;
+    padding: 10px 15px;
+    @include flex-column(center, flex-start);
+
+    .area {
+      width: 100%;
+      @include flex-row(space-between, center);
+      margin-bottom: 20px;
+
+      h2 {
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .detail {
+        @include flex-row(center, center);
+        gap: 5px;
+        height: 100%;
+        span {
+          font-size: 12px;
+          color: #007075;
+          cursor: pointer;
+          &.center {
+            height: 10px;
+            border-left: 1px black solid;
+            cursor: none;
+          }
+        }
+      }
+    }
+
+    .dropDowns {
+      @include flex-row(flex-start, flex-start);
+      gap: 10px;
+      font-size: 14px;
+      z-index: 15;
+    }
+
+    .houses {
+      overflow-y: auto;
+      flex: 1;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+
+      .house {
+        width: calc(50% - 10px);
+        @include flex-row(center, center);
+        height: 250px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .selectContainer {
+    position: relative;
+    .title {
+      gap: 10px;
+      @include flex-row(center, center);
+      border: 1px solid #d9d9d9;
+      border-radius: 5px;
+      padding: 7px;
+      cursor: pointer;
+    }
+
+    .container {
+      position: absolute;
+      right: 0;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #d9d9d9;
+      background-color: white;
+      width: 370px;
+      padding: 10px;
+      @include flex-column(center, flex-end);
+
+      .list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+
+        .type {
+          width: 80px;
+          height: 60px;
+          @include flex-column(center, center);
+          border: 1px solid #bcbcbc;
+          border-radius: 10px;
+
+          .img {
+            width: 30%;
+          }
+
+          .desc {
+            font-size: 12px;
+          }
+        }
+      }
+      .btns {
+        @include flex-row(space-between, center);
+        gap: 20px;
+
+        button {
+          border-radius: 5px;
+          padding: 10px 20px;
+          font-weight: bold;
+
+          &:first-child {
+            border: #bcbcbc 1px solid;
+            color: #bcbcbc;
+          }
+
+          &:last-child {
+            background-color: #003ede;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
